@@ -1,4 +1,4 @@
-name: format
+name: Style
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    name: Go Fmt Formatter
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
